@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="uk-container">
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="Index.html">Navbar</a>
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="Index.html">Inicio</a></li>
+                    <li><a href="Formulario.html">Formulario</a></li>
+                    <li><a href="botones.html">Botones</a></li>
+                    <li><a href="tabla.html">Tabla</a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <form class="uk-search uk-search-default">
+                    <span uk-search-icon></span>
+                    <input class="uk-search-input" type="search" placeholder="Search">
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="uk-container">
+        <div class="uk-grid">
+            <div class="uk-width-1-6@m uk-width-1-1@s" style="background-color: cadetblue;">
+                <ul class="uk-list">
+                    <li>Opcion 1</li>
+                    <li>Opcion 2</li>
+                    <li>Opcion 3</li>
+                    <li>Opcion 4</li>
+                </ul>
+            </div>
+            <div class="uk-width-5-6@m uk-width-1-1@s" style="background-color: burlywood;">
+                <h4>TABLA</h4>
+                <p>Aquí se muestra una tabla personalizada de ejemplo:</p>
+
+                <table class="uk-table uk-table-divider uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>First</th>
+                            <th>Last</th>
+                            <th>Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="uk-background-secondary uk-light">
+                            <th>1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr class="uk-background-muted">
+                            <th>2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr class="uk-background-success uk-light">
+                            <th>3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr class="uk-background-danger uk-light">
+                            <th>4</th>
+                            <td>Jenny</td>
+                            <td>Herryson</td>
+                            <td>@poly</td>
+                        </tr>
+                        <tr class="uk-background-warning uk-light">
+                            <th>5</th>
+                            <td>Mael</td>
+                            <td>Heaven</td>
+                            <td>@sunshine</td>
+                        </tr>
+                        <tr class="uk-background-primary uk-light">
+                            <th>6</th>
+                            <td>Juan</td>
+                            <td>Perez</td>
+                            <td>@notinmigrant</td>
+                        </tr>
+                        <tr class="uk-background-default">
+                            <th>7</th>
+                            <td>Taco</td>
+                            <td>Bell</td>
+                            <td>@notTacos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
